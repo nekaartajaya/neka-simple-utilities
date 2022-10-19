@@ -1,6 +1,6 @@
 {
   "name": "neka-simple-utilities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

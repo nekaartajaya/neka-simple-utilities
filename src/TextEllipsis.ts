@@ -3,7 +3,7 @@ const TextEllipsis: ({
   text,
   length,
 }: {
-  position?: string;
+  position?: 'start' | 'middle' | 'end';
   text: string;
   length: number;
 }) => string = ({ position, text, length }) => {
