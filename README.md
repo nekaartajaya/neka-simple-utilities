@@ -21,8 +21,6 @@ TextEllipsis({ position: 'start', text: 'How To Make Money', length: 6 });
 Result: '... Money';
 ```
 
-####
-
 #### Params
 
 | Name     | Type                     | Default |
