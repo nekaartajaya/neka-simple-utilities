@@ -31,6 +31,8 @@ Result: '... Money';
 | length\* | number                   |         |
 | position | 'start'\|'middle'\|'end' | 'end'   |
 
+#
+
 ### Number Formatter
 
 ```javascript
@@ -44,3 +46,18 @@ Result: '10.000.000';
 | --------- | ------ | ------- |
 | value\*   | number |         |
 | separator | string | '.'     |
+
+#
+
+### Kilo Formatter
+
+```javascript
+KiloFormatter({ value: 1000 });
+Result: '1K';
+```
+
+#### Params
+
+| Name    | Type   | Default |
+| ------- | ------ | ------- |
+| value\* | number |         |
