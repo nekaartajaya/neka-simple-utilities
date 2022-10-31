@@ -1,6 +1,6 @@
 {
   "name": "neka-simple-utilities",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple Utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,7 +20,13 @@
     "type": "git",
     "url": "git+https://github.com/nekaartajaya/neka-simple-utilities.git"
   },
-  "keywords": ["Simple", "Utilities", "Text", " Ellipsis"],
+  "keywords": [
+    "Utilities",
+    "Text Ellipsis",
+    "Copy To Clipboard",
+    "Number Formatter",
+    "Kilo Number Formatter"
+  ],
   "author": "Neka Artajaya",
   "license": "ISC",
   "bugs": {
@@ -31,6 +37,7 @@
     "@types/jest": "^29.1.2",
     "husky": "^8.0.1",
     "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.2.2",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "ts-jest": "^29.0.3",
@@ -45,5 +52,8 @@
     "./src/*": [
       "npm run formatter"
     ]
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }

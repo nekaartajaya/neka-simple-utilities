@@ -59,3 +59,18 @@ Result: '1K';
 | Name    | Type   | Default |
 | ------- | ------ | ------- |
 | value\* | number |         |
+
+#
+
+### Copy To Clipboard (Async/Await)
+
+```javascript
+CopyToClipboard({ text: 'Test' });
+Result: console.log('Test Copied');
+```
+
+#### Params
+
+| Name   | Type   | Default |
+| ------ | ------ | ------- |
+| text\* | string |         |
